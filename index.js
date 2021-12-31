@@ -1,6 +1,6 @@
 const { exec } = require("child_process");
 
-exec("node -v", (error, stdout, stderr) => {
+exec("npm i code-server", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
